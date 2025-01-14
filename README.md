@@ -10,7 +10,8 @@ Termux-এ এই টুল ব্যবহার করার পুরো ন�
 ```bash
 pkg update && pkg upgrade -y
 pkg install python
-pkg instoll git 
+pkg instoll git
+pkg instoll nmap
 pip install flask
 pkg instoll scapy
 pkg instoll pybluez
@@ -23,7 +24,7 @@ pkg instoll mitmproxy
 Python ফাইলটি রান করতে নিচের কমান্ড লিখুন:  
 
 ```bash
-python multitool.py
+python Bluetooth.py
 ```
 
 ---
